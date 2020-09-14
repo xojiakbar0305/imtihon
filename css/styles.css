@@ -469,7 +469,7 @@ body {
 }
 .site-footer {
   background-color: #F3F3F3;
-  padding: 40px 0 40px 0;
+  padding: 40px 0 0 0;
 }
 .site-footer__boxs {
   display: flex;
@@ -497,4 +497,8 @@ body {
 }
 .site-footer__list {
   display: flex;
+}
+.copy {
+  text-align: end;
+  margin: 0;
 }
