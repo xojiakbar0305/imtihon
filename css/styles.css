@@ -222,6 +222,12 @@ body {
   border-radius: 3px;
   padding: 25px;
 }
+.site-card:hover {
+  color: #FFBD54;
+}
+.site-card:active {
+  opacity: 0.5;
+}
 .site-card p {
   margin-top: 21px;
   margin-bottom: 0;
@@ -305,17 +311,190 @@ body {
   right: 0;
   top: -64px;
 }
-.site-course__form input {
+.site-course__input {
   padding: 10px 15px 10px 15px;
   border-radius: 5px;
   outline: none;
   border: none;
 }
-.site-course__form button {
+.site-course__input::placeholder{
+  color: #000;
+}
+.site-course__button {
+  cursor: pointer;
+  outline: none;
   padding: 10px 15px 10px 15px;
   border: none;
   border-radius: 5px;
   margin-left: 10px;
   background-color: black;
   color: #fff;
+}
+.site-course__button:hover {
+  color: #000;
+  background-color: #FFBD54;
+}
+.site-course__button:active {
+  opacity: 0.5;
+}
+.site-articles {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.site-articles__boxs {
+  display: flex;
+}
+.site-articles__item {
+  border-radius: 5px;
+}
+.site-articles__item img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.site-articles__box {
+  border: 1px solid #F4F4F3;
+  border-top: none;
+  padding: 21px 30px 21px 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.site-articles__span {
+  margin-left: 164px;
+  font-size: 14px;
+  color: #949494;
+}
+.site-articles__boxtitle {
+  font-size: 22px;
+  margin-top: 2px;
+}
+.site-articles-title {
+  margin-top: 65px;
+}
+.site-articles-text {
+  color: #949494;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 36px;
+}
+.site-articles__boxsitem {
+  display: flex;
+  margin: 0 24px 0 24px;
+  border-radius: 5px;
+}
+.site-articles__boxsitem img {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.site-articles__links{
+  text-decoration: none;
+  color: #3D9CEA;
+  font-size: 14px;
+  margin-right: 3px;
+}
+.site-articles__link {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.site-articles__linkspan {
+  color: #FFBD54;
+  margin-right: 5px;
+}
+.site-articles__textspan {
+  margin-left: 50px;
+  font-size: 14px;
+  color: #949494;
+}
+.site-articles__text {
+  width: 335px;
+  padding: 21px 30px 21px 30px;
+  background-color: #ffffff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.site-contact__section {
+  padding-bottom: 200px;
+}
+.site-boxs__contact {
+  display: flex;
+}
+.site-contact__box {
+  background-color: black;
+  padding: 60px 166px 60px 166px;
+}
+.site-contact__boxtitle {
+  font-size: 46px;
+  color: #fff;
+  margin: 0;
+}
+.site-contact__boxtext {
+  color: #949494;
+  font-size: 16px;
+  line-height: 20px;
+}
+.site-contact__form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.site-contact__form input {
+  width: 375px;
+  outline: none;
+  padding: 13px 22px 13px 22px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.site-contact__form textarea {
+  outline: none;
+  resize: vertical;
+  padding: 0;
+  width: 375px !important;
+  height: 165px;
+  margin-bottom: 30px;
+  padding: 13px 22px 13px 22px;
+}
+.site-contact__form button {
+  cursor: pointer;
+  border: none;
+  background-color: #FFBD54;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  width: 226px;
+  padding: 15px 0 15px 0;
+}
+.fish-img {
+  position: absolute;
+  right: -160px;
+}
+.site-footer {
+  background-color: #F3F3F3;
+  padding: 40px 0 40px 0;
+}
+.site-footer__boxs {
+  display: flex;
+}
+.footer-link {
+  list-style-type: none;
+}
+.site-footer__link{
+  display: inline-block;
+  margin-left: 67px;
+  margin-right: 70px;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 10px;
+  padding: 3px 5px 3px 5px;
+}
+.site-footer__link:hover{
+  background-color: #FFBD54;
+}
+.site-footer__link:active{
+  opacity: 0.5;
+}
+.site-footer-item {
+  list-style-type: none;
+}
+.site-footer__list {
+  display: flex;
 }
